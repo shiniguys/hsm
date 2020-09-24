@@ -1,0 +1,44 @@
+<nav class="navigation">
+  <div class="navigation__content">
+    <a href="/#" class="navigation__sign">
+      <img src="img/vhod.png" alt="" class="navigation__sign--img">
+      <span class="navigation__sign--name">Sign in</span>
+    </a>
+    <ul class="navigation__list">
+      {% for item in navigation %}
+        <li class="navigation__item">
+          {% if item.url == null %}
+          <button class="navigation__btn btn1 btn">{{item.name}}</button>
+          <ul class="navigationunder1__list list-under">
+            {% for row in item.list %}
+            <li class="navigationunder1__item">
+              {% if row.url == null %}
+                <button class="navigationunder1__btn btn2 btn {{row.class}}">{{row.name}}</button>
+                <ul class="navigationunder2__list list-under">
+                  {% for pos in row.listing3 %}
+                    <li class="navigationunder2__item">
+                     {% if pos.url == null %}
+                     <button class="navigationunder1__btn btn2 btn {{pos.class}}">{{pos.name}}</button>
+                       {% else %}
+                       <a href="/{{pos.url}}" class="navigation__link navigation__link3">{{pos.name}}</a>
+                     {% endif %}
+                    </li>
+                  {% endfor %}
+                </ul>
+                {% else %}
+                <a href="/{{row.url}}" class="navigation__link navigation__link2">{{row.name}}</a>
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+          {% else %}
+          <a href="/{{item.url}}" class="navigation__link">{{item.name}}</a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="navigation__close">
+    <button type="button" aria-label="close-btn" class="navigation__close--btn"></button>
+  </div>
+</nav>

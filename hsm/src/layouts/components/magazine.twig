@@ -1,0 +1,22 @@
+<div class="magazine__container container">
+  <div class="magazine main">
+    <div class="magazine__title-main">
+      <h2>MAGAZINE</h2>
+      <a href="#" class="magazine__link--main">READ H&M MAGAZINE</a>
+    </div>
+    <ul class="magazine__list">
+      {% for item in magazine %}
+      <li class="magazine__item">
+        <a href="/{{item.url}}" class="magazine__link">
+          <img src="img/{{item.img}}" alt="" class="magazine__img">
+          <div class="magazine__title">
+            <p class="magazine__text">{{item.name}}</p>
+            <strong><p class="magazine__text">{{item.name1}}</p></strong>
+            <a href="/{{item.url}}" class="magazine__link-under">{{item.name2}}</a>
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

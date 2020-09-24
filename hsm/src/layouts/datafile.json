@@ -1,0 +1,651 @@
+{
+  "brandName": "",
+  "navigation": [
+    {
+      "name":"Women",
+      "list":[
+        {
+          "name": "Women",
+          "class":"backbtn"
+        },
+        {
+          "name":"New Arrivals",
+          "listing3": [
+            {
+              "name": "New Arrivals",
+              "class":"backbtn"
+            },
+            {
+              "name":"Vieav All",
+              "url":"#"
+            },
+            {
+              "name":"Clothes",
+              "url":"#"
+            },
+            {
+              "name":"Shoes & Accessories",
+              "url":"#"
+            }
+          ]
+        },
+        {
+          "name":"Treading Now",
+          "listing3": [
+            {
+              "name": "Treading Now",
+              "class":"backbtn"
+            },
+            {
+              "name":"Vieav All",
+              "url":"#"
+            },
+            {
+              "name":"Clothes",
+              "url":"#"
+            }
+          ]
+        },
+        {
+          "name":"Offers",
+          "listing3": [
+            {
+              "name": "Offers",
+              "class":"backbtn"
+            },
+            {
+              "name":"Vieav All",
+              "url":"#"
+            },
+            {
+              "name":"Clothes",
+              "url":"#"
+            }
+          ]
+        },
+        {
+          "name":"Shop by Edit",
+          "listing3": [
+            {
+              "name": "Shop by Edit",
+              "class":"backbtn"
+            },
+            {
+              "name":"Vieav All",
+              "url":"#"
+            },
+            {
+              "name":"Clothes",
+              "url":"#"
+            }
+          ]
+        },
+        {
+          "name": "View All",
+          "url":"#"
+        },
+        {
+          "name": "View All",
+          "url":"#"
+        },
+        {
+          "name": "View All",
+          "url":"#"
+        }
+      ]
+    },
+    {
+      "name":"Men",
+      "list":[
+        {
+          "name": "Women",
+          "class":"backbtn"
+        },
+        {
+          "name":"New Arrivals",
+          "listing3": [
+            {
+              "name": "New Arrivals",
+              "class":"backbtn"
+            },
+            {
+              "name":"Vieav All",
+              "url":"#"
+            },
+            {
+              "name":"Clothes",
+              "url":"#"
+            },
+            {
+              "name":"Shoes & Accessories",
+              "url":"#"
+            }
+          ]
+        },
+        {
+          "name":"Treading Now",
+          "listing3": [
+            {
+              "name": "Treading Now",
+              "class":"backbtn"
+            },
+            {
+              "name":"Vieav All",
+              "url":"#"
+            },
+            {
+              "name":"Clothes",
+              "url":"#"
+            }
+          ]
+        },
+        {
+          "name":"Offers",
+          "listing3": [
+            {
+              "name": "Offers",
+              "class":"backbtn"
+            },
+            {
+              "name":"Vieav All",
+              "url":"#"
+            },
+            {
+              "name":"Clothes",
+              "url":"#"
+            }
+          ]
+        },
+        {
+          "name":"Shop by Edit",
+          "listing3": [
+            {
+              "name": "Shop by Edit",
+              "class":"backbtn"
+            },
+            {
+              "name":"Vieav All",
+              "url":"#"
+            },
+            {
+              "name":"Clothes",
+              "url":"#"
+            }
+          ]
+        },
+        {
+          "name":"Men",
+          "list":[
+            {
+              "name": "Men",
+              "class":"backbtn"
+            },
+            {
+              "name":"New Arrivals",
+              "listing3": [
+                {
+                  "name": "New Arrivals",
+                  "class":"backbtn"
+                },
+                {
+                  "name":"Vieav All",
+                  "url":"#"
+                },
+                {
+                  "name":"Clothes",
+                  "url":"#"
+                },
+                {
+                  "name":"Shoes & Accessories",
+                  "url":"#"
+                }
+              ]
+            },
+            {
+              "name":"Treading Now",
+              "listing3": [
+                {
+                  "name": "Treading Now",
+                  "class":"backbtn"
+                },
+                {
+                  "name":"Vieav All",
+                  "url":"#"
+                },
+                {
+                  "name":"Clothes",
+                  "url":"#"
+                }
+              ]
+            },
+            {
+              "name":"Offers",
+              "listing3": [
+                {
+                  "name": "Offers",
+                  "class":"backbtn"
+                },
+                {
+                  "name":"Vieav All",
+                  "url":"#"
+                },
+                {
+                  "name":"Clothes",
+                  "url":"#"
+                }
+              ]
+            },
+            {
+              "name":"Shop by Edit",
+              "listing3": [
+                {
+                  "name": "Shop by Edit",
+                  "class":"backbtn"
+                },
+                {
+                  "name":"Vieav All",
+                  "url":"#"
+                },
+                {
+                  "name":"Clothes",
+                  "url":"#"
+                }
+              ]
+            },
+            {
+              "name": "View All",
+              "url":"#"
+            },
+            {
+              "name": "View All",
+              "url":"#"
+            },
+            {
+              "name": "View All",
+              "url":"#"
+            }
+          ]
+        },
+        {
+          "name": "View All",
+          "url":"#"
+        },
+        {
+          "name": "View All",
+          "url":"#"
+        },
+        {
+          "name": "View All",
+          "url":"#"
+        }
+      ]
+    },
+    {
+      "name": "Customer Service",
+      "url": "#"
+    },
+    {
+      "name": "UNiDAYS",
+      "url": "#"
+    },
+    {
+      "name": "Newssletter",
+      "url": "#"
+    },
+    {
+      "name": "Store Locator",
+      "url": "#"
+    }
+  ],
+  "headerservice": [
+    {
+      "name": "Customer Service",
+      "url":"#"
+    },
+    {
+      "name": "Newsletter",
+      "url":"#"
+    },
+    {
+      "img": "points",
+      "list":[
+        {
+          "name":"Store Locator",
+          "url":"#"
+        },
+        {
+          "name":"Download Android",
+          "url":"#"
+        },
+        {
+          "name":"Download iOS",
+          "url":"#"
+        }
+      ]
+    }
+  ],
+  "usernav": [
+    {
+      "link": "#",
+      "name": "Sing in",
+      "img": "vhod"
+    },
+    {
+      "link": "#",
+      "name": "Favourites",
+      "img": "favor"
+    },
+    {
+      "link": "#",
+      "name": "Shoppong bag",
+      "img": "shpbag"
+    },
+    {
+      "img": "srch",
+      "class": "srchmbl"
+    }
+  ],
+  "bannerlinks": [
+    {
+      "name": "Free delivery for H&M members",
+      "url": "#",
+      "class": ""
+    },
+    {
+      "name": "Become a member and get 10% off yor first purchas",
+      "url": "#",
+      "class": "desct"
+    },
+    {
+      "name": "Members get to Play later - Pay later by Klarna",
+      "url": "#",
+      "class": "desct"
+    }
+  ],
+  "infolinks": [
+    {
+      "name": "READ MORE",
+      "url": "#"
+    },
+    {
+      "name": "BECOME A MEMBER",
+      "url":"#"
+    }
+  ],
+  "magazine": [
+    {
+      "url": "#",
+      "name": "INSIDER H&M",
+      "name1": "Introdicting H&M Studio AW 2020",
+      "name2": "Read The Story",
+      "img": "mg1.jpeg"
+    },
+    {
+      "url": "#",
+      "name": "INSIDER H&M",
+      "name1": "Whooli Chen x H&M",
+      "name2": "Read The Story",
+      "img": "mg2.jpg"
+    },
+    {
+      "url": "#",
+      "name": "INSIDER H&M",
+      "name1": "Kangol x H&M feat Mabel",
+      "name2": "Read The Story",
+      "img": "mg3.jpeg"
+    }
+  ],
+  "footerlist": [
+    {
+      "name": "SHOP",
+      "list": [
+        {
+          "name": "Women",
+          "url": "#"
+        },
+        {
+          "name": "Men",
+          "url":"#"
+        },
+        {
+          "name": "Divided",
+          "url": "#"
+        },
+        {
+          "name": "Kids",
+          "url": "#"
+        },
+        {
+          "name": "H&M HOME",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "name": "CORPORATE INFO",
+      "list": [
+        {
+          "name": "Career at H&N",
+          "url": "#"
+        },
+        {
+          "name": "About H&M group",
+          "url":"#"
+        },
+        {
+          "name": "Sustainability",
+          "url": "#"
+        },
+        {
+          "name": "Press",
+          "url": "#"
+        },
+        {
+          "name": "Investors Relations",
+          "url": "#"
+        },
+        {
+          "name": "Corporate Governace",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "name": "HELP",
+      "list": [
+        {
+          "name": "Customer Service",
+          "url": "#"
+        },
+        {
+          "name": "My Account",
+          "url":"#"
+        },
+        {
+          "name": "Store Locator",
+          "url": "#"
+        },
+        {
+          "name": "Legal & Privacy",
+          "url": "#"
+        },
+        {
+          "name": "Contact",
+          "url": "#"
+        },
+        {
+          "name": "Gift Cards",
+          "url": "#"
+        }
+      ]
+    }
+  ],
+  "soc": [
+    {
+      "img": "facebook",
+      "name": "facebook",
+      "url":"#"
+    },
+    {
+      "img": "twitter",
+      "name": "twitter",
+      "url":"#"
+    },
+    {
+      "img": "ins",
+      "name": "instagram",
+      "url":"#"
+    },
+    {
+      "img": "youtube",
+      "name": "youtube",
+      "url":"#"
+    },
+    {
+      "img": "pinterest",
+      "name": "pinterest",
+      "url":"#"
+    }
+  ],
+  "menu": [
+    {
+      "name": "Women"
+    },
+    {
+      "name": "Man"
+    },
+    {
+      "name": "Divided"
+    },
+    {
+      "name": "Kids"
+    },
+    {
+      "name": "H&M HOME"
+    }
+  ],
+  "menulisting1": [
+    {
+      "name": "Collection",
+      "url": "#"
+    },
+    {
+      "name": "New Arriwas",
+      "url": "#"
+    },
+    {
+      "name": "Best Sellers",
+      "url": "#"
+    },
+    {
+      "name": "Custom",
+      "url": "#"
+    }
+  ],
+  "menulisting2":[
+    {
+      "name": "Style",
+      "url" : "#",
+      "menulisting3": [
+        {
+          "name": "Classic",
+          "url": "#"
+        },
+        {
+          "name": "Digital",
+          "url": "#"
+        },
+        {
+          "name": "Chronograph",
+          "url": "#"
+        },
+        {
+          "name": "Oversized",
+          "url": "#"
+        },
+        {
+          "name": "Automatic",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "name": "Use",
+      "url" : "#",
+      "menulisting3": [
+        {
+          "name": "Classic",
+          "url": "#"
+        },
+        {
+          "name": "Digital",
+          "url": "#"
+        },
+        {
+          "name": "Chronograph",
+          "url": "#"
+        },
+        {
+          "name": "Oversized",
+          "url": "#"
+        },
+        {
+          "name": "Automatic",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "name": "Treading",
+      "url" : "#",
+      "menulisting3": [
+        {
+          "name": "Classic",
+          "url": "#"
+        },
+        {
+          "name": "Digital",
+          "url": "#"
+        },
+        {
+          "name": "Chronograph",
+          "url": "#"
+        },
+        {
+          "name": "Oversized",
+          "url": "#"
+        },
+        {
+          "name": "Automatic",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "name": "Collabaration",
+      "url" : "#",
+      "menulisting3": [
+        {
+          "name": "Classic",
+          "url": "#"
+        },
+        {
+          "name": "Digital",
+          "url": "#"
+        },
+        {
+          "name": "Chronograph",
+          "url": "#"
+        },
+        {
+          "name": "Oversized",
+          "url": "#"
+        },
+        {
+          "name": "Automatic",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+}

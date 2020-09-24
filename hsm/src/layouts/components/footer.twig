@@ -1,0 +1,39 @@
+<div class="footer__container container">
+ <div class="footer__wrapper main">
+  <ul class="footer__list">
+    {% for item in footerlist %}
+    <li class="footer__item">
+      <button class="footer__btn-nav" type="button">{{item.name}}</button>
+      <ul class="footer__list-under">
+        {% for pos in item.list %}
+        <li class="footer__item-under">
+          <a href="/{{pos.url}}" class="footer__link">
+            {{pos.name}}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+  <ul class="footer__soc-list">
+    {% for item in soc %}
+    <li class="footer__soc-item">
+      <a href="/{{item.url}}" class="footer__soc-link">
+        <img src="img/{{item.img}}.png" alt="{{item.name}}" class="footer__soc-img">
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="footer__text">
+    The content of this site is copyright-protected and is 
+    the property of H&M Hennes & Mauritz AB. H&M's 
+    business concept is to offer fashion and quality at the 
+    best price in a sustainable way. H&M has since it was 
+    founded in 1947 grown into one of the world's leading 
+    fashion companies.
+  </p>
+  <a href="/#" class="footer__link">HENNES H&M MAURITZ</a>
+  <a href="/#" class="footer__link">Choose coountry</a>
+ </div>
+</div>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include '../_parts/app-head.twig' %}
+
+    <body>
+        <header class="header">
+            {% include '../components/header.twig' %}
+        </header>
+
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+
+        <footer class="footer">
+            {% include '../components/footer.twig' %}
+        </footer>
+
+        {% include '../_parts/app-js.twig' %}
+    </body>
+</html>

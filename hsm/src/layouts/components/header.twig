@@ -1,0 +1,56 @@
+<div class="header__container container">
+  <div class="header__content">
+    <ul class="header__service--list">
+      {% for item in headerservice %}
+      <li class="header__service--item">
+        {% if item.url == null %}
+          <button class="header__service--btn">
+            <img src="img/{{item.img}}.png" alt="" class="header__service--img">
+            <ul class="header__service--listunder">
+              {% for row in item.list %}
+              <li class="header__service--itemunder">
+                <a href="/{{row.url}}" class="header__service--link">{{row.name}}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </button>
+          {% else %}
+          <a href="/{{item.url}}" class="header__service--link">{{item.name}}</a>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    <div class="header__burger">
+      <button class="header__burger-btn" type="button" aria-label="Menu"></button>
+    </div>
+    <a href="#"><img class="header__logotype" src="img/logo.png" alt="" title=""></a>
+    <div class="header__navigation">
+      <ul class="header__navigation--list">
+        {% for item in usernav %}
+        {% if item.link != null %}
+        <li class="header__navigation--item {{item.class}}">
+          <a href="/{{item.url}}" class="header__navigation--link">
+            <img src="img/{{item.img}}.png" alt="" class="header__navigation--img">
+            <p class="header__navigation--name">{{item.name}}</p>
+          </a>
+        </li>
+        {% else %}
+        <li class="header__navigation--item {{item.class}}">
+          <button class="header__navigation--button header__navigation--link search-btn">
+            <img src="img/{{item.img}}.png" alt="search" class="header__navigation--img">
+            <p class="header__navigation--name">{{item.name}}</p>
+          </button>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="search__container">
+    <img class="search__img header__navigation--img" src="img/srch.png" alt="search" title="search">
+    <input class="search__pool" type="search" placeholder="Search Product">
+    <span class="closebtn">&times;</span>
+  </div>
+  {% include '../components/navigation.twig' %}
+  {% include '../components/menu.twig' %}
+</div>

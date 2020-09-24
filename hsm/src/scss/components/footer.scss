@@ -1,0 +1,144 @@
+.footer{
+  &__link{
+    margin-top: 20px;
+    text-align: center;
+  }
+  &__text{
+    text-align: center;
+  }
+  &__wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: -1px;
+  }
+  &__soc{
+    &-list{
+      display: flex;
+      flex-direction: row;
+      align-self: center;
+      justify-content: space-around;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      max-width: 400px;
+    }
+    &-img{
+      width: 25px;
+    }
+    &-item{
+      margin-left: 35px;
+      &:first-child{
+        margin-left: 0px;
+      }
+    }
+  }
+  &__btn-nav{
+    position: relative;
+    display: flex;
+ 
+    font-weight: 600;
+    width: 100%;
+    &::before{
+      content: "";
+      background-color: $black;
+      position: absolute;
+      width: 15px;
+      height: 2px;
+      right: 0;
+      bottom: 12px;
+      transform: rotate(180deg);
+      transition: 0.3s;
+    }
+    &:after{
+      content: "";
+      background-color: $black;
+      position: absolute;
+      width: 15px;
+      height: 2px;
+      right: 0;
+      bottom: 12px;
+      transform: rotate(90deg);
+      transition: 0.3s;
+    }
+    &.after-none::after{
+      transform: rotate(180deg);
+      transition: $transition;
+      color: $red;
+      background-color: $red;
+    }
+    &.after-none::before{
+      color: $red;
+      background-color: $red;
+    }
+  }
+  &__container{
+    background-color: rgba($color: $blue, $alpha: .1);
+  }
+  &__list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    &-under{
+      height: 0px;
+      overflow: hidden;
+    }
+  }
+  &__item{
+    margin: 20px;
+    &-under{
+      margin-top: 10px;
+    }
+  }
+  &__link{
+    text-decoration: none;
+    font-size: 500;
+  }
+}
+
+.footer__btn-nav.after-none{
+  color: $red;
+}
+.footer__list-under.footer__list-active{
+  min-height: 150px;
+  margin-top: 15px;
+  transition: $transition;
+}
+
+
+@media (min-width: map-get($grid-breakpoints, md)) {
+  .footer__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &-under{
+      display: flex;
+      min-height: 150px;
+      margin-top: 15px;
+      flex-direction: column;
+    }
+  }
+  .footer__btn-nav{
+    &::before{
+      content: "";
+      background-color: $black;
+      position: absolute;
+      width: 0px;
+      height: 2px;
+      right: 0;
+      bottom: 12px;
+      transform: rotate(180deg);
+      transition: 0.3s;
+    }
+    &:after{
+      content: "";
+      background-color: $black;
+      position: absolute;
+      width: 0px;
+      height: 2px;
+      right: 0;
+      bottom: 12px;
+      transform: rotate(90deg);
+      transition: 0.3s;
+    }
+
+  }
+}

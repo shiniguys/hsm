@@ -1,0 +1,57 @@
+<div class="banner">
+  <ul class="banner__links">
+    {% for item in bannerlinks %}
+    <li class="banner__links--item">
+      <a href="/{{item.url}}" class="banner__link {{item.class}}">
+        {{item.name}}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  <div class="banner__main">
+    <img src="img/banner.jpeg" alt="" class="banner__img">
+    <div class="banner__content">
+      <p class="banner__text">
+        <strong>The perfect pale palette</strong><br>
+        Key style for a bold minimalistic look
+      </p>
+      <a href="/#" class="banner__link-under">Show now</a>
+      <div class="banner__price">
+        <p class="">
+          <a class="banner__link-price" href="#">$24.99</a>
+        </p>
+        <a class="" href="#">
+          <div class="arrow-1">
+            <div></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="banner__info--container" >
+    <div class="banner__info">
+      <div class="banner__info-text">
+        <p class="banner__info-text1"><strong>Try it befory you buy it - pay later</strong></p>
+        <p class="banner__info-text2">Did you know that as a member you can shop
+          now and pay in 30 days through Pay later with
+          Klarna? Available both online & in-store.</p>
+      </div>
+      <div class="banner__info-spans">
+        <button type="button" aria-label="open menu" class="banner__info-span1"></button>
+      </div>
+    </div>
+    <ul class="banner__info-list">
+      {% for item in infolinks %}
+      <li class="banner__info-item">
+        <a class="banner__info-link" href="/{{item.url}}">{{item.name}}
+      </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <a href="#" class="banner__link-home">
+    <img src="img/bn.jpeg" alt="" class="banner__img-home">
+  </a>
+</div>
+
+

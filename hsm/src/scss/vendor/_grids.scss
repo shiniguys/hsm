@@ -1,0 +1,39 @@
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 $g-sm;
+    width: 100%;
+}
+.main{
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 $g-sm;
+  width: 100%;
+}
+
+.layout {
+    position: relative;
+    margin: 0 (-$g-sm);
+    &__main {
+        padding: $g-sm;
+    }
+    &__aside {
+      padding: $g-sm;
+    }
+}
+
+.header,
+.footer {
+    flex-shrink: 0;
+}
+
+main {
+    flex-grow: 1;
+}
+
+
+@media (min-width: map-get($grid-breakpoints, md)) {
+    .container {
+        padding: 0 $o;
+    }
+}

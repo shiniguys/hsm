@@ -1,0 +1,17 @@
+@import "vendor/normalize";
+@import "vendor/fonts";
+@import "vendor/vars";
+@import "vendor/grids";
+@import "vendor/base";
+@import "vendor/content";
+@import "vendor/buttons";
+// components
+@import "components/header";
+// main
+@import "components/navigation";
+@import "components/banner";
+@import "components/slider";
+@import "components/magazine";
+@import "components/menu";
+// footer
+@import "components/footer";
